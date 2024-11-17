@@ -29,7 +29,7 @@ Save and Document Results:
 Capture the waveforms and include the results in the final report.
 
 Verilog Code for Sequence Detector Using Moore FSM with TB :
-
+```
 // moore_sequence_detector.v
 module moore_sequence_detector(
     input wire clk,
@@ -140,14 +140,14 @@ module tb_moore_sequence_detector;
         // End simulation
         #20 $finish;
     end
-
+```
   ![WhatsApp Image 2024-11-13 at 22 16 28_2db1c5ca](https://github.com/user-attachments/assets/d498d0d8-4a6f-424b-86c7-271064469670)
 
 
 
 
 Verilog Code for Sequence Detector Using Mealy FSM with TB :
-
+```
 module mealy_sequence_detector(
     input wire clk,
     input wire reset,
@@ -255,6 +255,7 @@ module tb_mealy_sequence_detector;
 
     // Monitor the output
     endmodule
+```
 ![WhatsApp Image 2024-11-13 at 22 17 38_14cd4c85](https://github.com/user-attachments/assets/2e42b8dc-5dcc-4c28-a8ff-43740d276f75)
 
 Conclusion
